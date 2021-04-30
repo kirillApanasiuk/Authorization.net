@@ -3,14 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization1", "Authorization1\Authorization1.csproj", "{C3D1C825-B8B4-458A-A7AF-9704228CB43B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization1", "Authorization1\Authorization1.csproj", "{C3D1C825-B8B4-458A-A7AF-9704228CB43B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roles", "Roles\Roles.csproj", "{B8BFD0BF-6823-4E3B-9396-887ACE1BCA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Roles", "Roles\1.Roles.csproj", "{B8BFD0BF-6823-4E3B-9396-887ACE1BCA3F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C81B08F7-1974-4BB8-BCB3-B339C34010E3}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Database", "Database\2.Database.csproj", "{2032EDE2-0E62-4F3B-88BD-6223155CA1BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{58F0CE05-916A-479A-9FF6-F5448251BE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderFacebook", "ProviderFacebook\ProviderFacebook.csproj", "{6FDF5113-041C-49DA-8D6C-7F039DCF1765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4", "4", "{C312D34D-07CA-4482-9E0E-906D1EE81270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.JWTBearer", "Authorization.JWTBearer\Authorization.JWTBearer.csproj", "{5D27F172-9473-494A-A4E7-996990D0E2C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +36,25 @@ Global
 		{B8BFD0BF-6823-4E3B-9396-887ACE1BCA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BFD0BF-6823-4E3B-9396-887ACE1BCA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BFD0BF-6823-4E3B-9396-887ACE1BCA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2032EDE2-0E62-4F3B-88BD-6223155CA1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2032EDE2-0E62-4F3B-88BD-6223155CA1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2032EDE2-0E62-4F3B-88BD-6223155CA1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2032EDE2-0E62-4F3B-88BD-6223155CA1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDF5113-041C-49DA-8D6C-7F039DCF1765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDF5113-041C-49DA-8D6C-7F039DCF1765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDF5113-041C-49DA-8D6C-7F039DCF1765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDF5113-041C-49DA-8D6C-7F039DCF1765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D27F172-9473-494A-A4E7-996990D0E2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D27F172-9473-494A-A4E7-996990D0E2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D27F172-9473-494A-A4E7-996990D0E2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D27F172-9473-494A-A4E7-996990D0E2C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FDF5113-041C-49DA-8D6C-7F039DCF1765} = {58F0CE05-916A-479A-9FF6-F5448251BE5A}
+		{5D27F172-9473-494A-A4E7-996990D0E2C8} = {C312D34D-07CA-4482-9E0E-906D1EE81270}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {899E0430-31F2-41F4-BD2E-E58528914E11}
